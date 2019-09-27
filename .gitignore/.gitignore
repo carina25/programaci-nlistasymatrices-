@@ -1,0 +1,180 @@
+#2-Abra la página http://pythontutor.com/visualize.html#mode=edit , copie el codigo que está a continuación y ejecútelo en el interprete de esa página. Para ilustrar como hacer vea las siguientes imágenes 
+
+miLista = [1024, 3, True, 6.5]
+lista 1024, si 3 esta dentro de 6.5 es verdadero
+miLista.append(False)
+mi lista 3 verdadera 
+print(miLista)
+imprime la lista
+miLista.insert(2,4.5)
+inserta a la lista el 2.4.5 
+print(miLista)
+imprime la lista
+print(miLista.pop())
+vuelve a llamar a la lista
+print(miLista)
+imprime la lista nuevamente
+print(miLista.pop(1))
+imprime la lista con el primer elemento
+print(miLista)
+imprime la lista
+miLista.pop(2)
+imprime la lista, el segundo elemento de la lista
+print(miLista)
+imprime la lista
+miLista.sort()
+
+print(miLista)
+imprime la lista
+miLista.reverse()
+da vuelta la lista
+print(miLista)
+imprime la lista
+print(miLista.count(6.5))
+
+print(miLista.index(4.5))
+miLista.remove(6.5)
+print(miLista)
+imprime la lista
+del miLista[0]
+print(miLista)
+imprime la lista 
+#2-Ejecute el siguiente código
+#a=[3,3,3,3,3,3,3,3,3]
+#for in in range (10):
+    #print(a[i])
+#a-¿Que pasó?
+#b-¿en que linea esta el problema?
+#-Busque en internet que quiere decir ese problema y explicarlo con sus palabras.
+#d-Corrija el programa para que funcione
+
+#a-SyntaxError: invalid syntax (<string>, line 1)
+#b- El problema esta en la linea 1
+#c- IndexError: list index out of range, tiene el rango 10 y necesita imprimir 9 elementos.
+#d- a=[3,3,3,3,3,3,3,3,3]
+for in range (9):
+    print(a[i])
+
+#3-Escriba una función que tome una lista y devuelva la cantidad de elementos pares que tiene. Ej: cuantosPares([2,3,4,5,1,0])=3
+
+   def cuantospares () :
+       lista.agregar items (2,3,4,5,1,0)
+       lista.tamaño ()
+        return 
+#4-Escribir una función sumaLista() y una función multiplicaLista() que sumen y multipliquen respectivamente todos los números de una lista. Ej: sumaLista([1,2,3,4])=10 y multiplicaLista([1,2,3,4]) = 24.
+ 
+def suma(lista):
+
+	listado = lista.split()
+	x = 1,2,3,4
+	for i in range(10,len(listado)):
+		x = int(listado[i])+x
+	print x
+    
+def multi(lista):
+	
+	listado = lista.split()
+	x = 1,2,3,4
+	for i in range(24,len(listado)):
+		x = int(listado[i])*x
+	print x
+
+#5-Escribir una función maximoEnLista() que tome una lista de números y devuelva el más grande. Ej: maximoEnLista([1,2,3,4,2,3]) = 4
+
+def maximoenlista (): 
+   lista.agregar items [1,0,3,4]
+   lista.extraer []
+    return 
+#6-Un filtro es una función que borra todos los elementos que no cumplen con una condición. Escriba una función filtrarPalabrasn() que tome una lista de palabras y un entero n, y borre todas las palabras que tengan menos de n caracteres.
+
+def  filtrarpalabras():}
+    lista.agregar items [casa,perro,auto,Ferrocarril,tren]
+    lista.agregar items [4]
+    lista.filter palabras 4 
+        return (): 
+
+#7-Escribir un programa que almacene los vectores (1,2,3) y (-1,0,2) en dos listas y muestre por pantalla su producto escalar. El producto escalar entre dos vectores a=(a1,a2,..,an) y b=(b1,b2,..,b2) se define así a*b=a1*b1+a2*b2+..+an*bn. 
+#Ej: a=(1,2) y b=(3,4) ->  a*b = 1*3 + 2*4 = 11
+
+
+
+
+
+#8- Escribe una función llamada "elimina_duplicados" que tome una lista y devuelva una nueva lista con los elementos únicos de la lista original. No tienen por qué estar en el mismo orden.
+   
+def elimina_duplicados():
+ sinduplicados = set(lista)
+   return sinduplicados
+
+#Main
+
+numeros = [4,6,4,1,2,6,7,8,9,0,8,6]
+
+print elimina_duplicados(numeros)
+
+#Ejerciciosdematrices 
+#1-Dedina una funcion que devuelva una matriz vacia de nxm (pueden llenarla de none o de 0΅s ) 
+#ejemplo a= crear matriz(2,3). print (a)
+#0 0 0
+#0 0 0
+#1-
+def crearMatriz() :
+    a = [2,3]
+   print (a) 
+
+#2-escriba una funcion que tome una matriz y devuelva la cantidad de columnas (n)
+#ejemplo mfilas(a)=2, ncolumnas(a)=3
+
+def unamatriz () :
+    m. filas (a) = [2]
+    n. columnas (a) = [3]
+   return tamaño matriz 
+
+#3- Programar una función enumF que tome una matriz y numere cada celda de la matriz en orden creciente de izquierda a derecha y de arriba a abajo y otra enumC que numere cada celda de la matriz en orden creciente de arriba a abajo luego izquierda a derecha.
+
+#Ej: enumF(a)  1 2 3   enumC(a)= 1 3 5
+ #             4 5 6             2 4 6
+
+
+
+#4- 
+def numerosparesdeunamatriz () :
+    m. filas (a) = [0,0]
+    n. columnas (a) = [1,2]
+    return tamaño.pares 
+
+#5-suma de matrices 
+
+def sumadematrices ():
+    matriz1= []
+    matriz2= []
+matrizresultado=[]
+
+print ("matriz 3*3")
+for in range (3):
+    matriz1.append ([])
+    for b in range (3) :
+        matriz1 [a].append(input("ingresar el valor de la primera matriz") )
+ for c in range (3) :
+       matriz2.append ([])
+for d in range (3) 
+       matriz2 [c].append(input ("ingresar el valor de la segunda matriz") )
+sumar=matriz1+ matriz2
+matrizResultado=(sumar)
+print (matrizresultado)
+
+#6-Escriba una función que tome una matriz cuadrada y devuelva una lista con la diagonal de esa matriz y otra que sume los elementos de esa lista. diagonal() y sumaDiagonal()
+
+n = 3
+a = [[11,2,4],[4,5,6],[10,8,-12]]
+sum_first_diagonal = sum(a[i][i] for i in range(n))
+sum_second_diagonal = sum(a[n-i-1][n-i-1] for i in range(n))
+print(str(sum_first_diagonal)+" "+str(sum_first_diagonal))
+
+#7-Escriba una función que tome la matriz generada por enumF(crearMatriz(5,6)) y devuelva la posición (i,j) de cada número primo (siendo i la fila y j la columna en la que se encuentra el número) 
+
+ def enumfcrearMatriz () :
+     m.filas(a)= [[5,6]]
+     n.columnas(a)= [[i,j]] 
+     list.insert(i, x)
+        return () : 
